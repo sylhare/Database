@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:3897/mygantt.html -->
+<html data-brackets-id="13">
+
+<head data-brackets-id="14">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title data-brackets-id="15">How to Start with dhtmlxGantt</title>
+    <script data-brackets-id="16" src="./How to Start with dhtmlxGantt_files/dhtmlxgantt.js"></script>
+    <link data-brackets-id="17" href="./How to Start with dhtmlxGantt_files/dhtmlxgantt.css" rel="stylesheet"> </head>
+
+<body data-brackets-id="18">
+    <div class="gantt_cal_light" role="dialog" aria-hidden="true" aria-label="23 November 2016 - 24 November 2016 New task" style="visibility: visible; height: 250px; display: none; top: 369px; left: 165px;">
+        <div class="gantt_cal_ltitle" role="heading" style="cursor: pointer;"><span class="gantt_mark">&nbsp;</span><span class="gantt_time">23 November 2016 - 24 November 2016</span><span class="gantt_title">New task</span></div>
+        <div class="gantt_cal_larea" style="height: 175px;">
+            <div id="area_1479998194421" class="gantt_cal_lsection">
+                <label for="input_1479998194423">Description</label>
+            </div>
+            <div class="gantt_cal_ltext" style="height:70px;">
+                <textarea id="input_1479998194423"></textarea>
+            </div>
+            <div id="area_1479998194422" class="gantt_cal_lsection">
+                <label for="input_1479998194424">Time period</label>
+            </div>
+            <div style="height:30px;padding-top:0px;font-size:inherit;" class="gantt_section_time">
+                <div class="gantt_time_selects">
+                    <select aria-label="Days" id="input_1479998194424">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select aria-label="Months">
+                        <option value="0">January</option>
+                        <option value="1">February</option>
+                        <option value="2">March</option>
+                        <option value="3">April</option>
+                        <option value="4">May</option>
+                        <option value="5">June</option>
+                        <option value="6">July</option>
+                        <option value="7">August</option>
+                        <option value="8">September</option>
+                        <option value="9">October</option>
+                        <option value="10">November</option>
+                        <option value="11">December</option>
+                    </select>
+                    <select aria-label="Years">
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </div>
+                <div class="gantt_duration">
+                    <input type="button" class="gantt_duration_dec" value="−">
+                    <input type="text" value="5" class="gantt_duration_value" aria-label="Duration" aria-valuemin="0">
+                    <input type="button" class="gantt_duration_inc" value="+"> Days <span>24 November 2016</span></div>
+            </div>
+        </div>
+        <div role="button" aria-label="Save" tabindex="0" class="gantt_btn_set gantt_left_btn_set gantt_save_btn_set">
+            <div dhx_button="1" class="gantt_save_btn"></div>
+            <div>Save</div>
+        </div>
+        <div role="button" aria-label="Cancel" tabindex="0" class="gantt_btn_set gantt_left_btn_set gantt_cancel_btn_set">
+            <div dhx_button="1" class="gantt_cancel_btn"></div>
+            <div>Cancel</div>
+        </div>
+        <div role="button" aria-label="Delete" tabindex="0" class="gantt_btn_set gantt_right_btn_set gantt_delete_btn_set" style="float:right;">
+            <div dhx_button="1" class="gantt_delete_btn"></div>
+            <div>Delete</div>
+        </div>
+    </div>
+    <div id="gantt_here" style="width:1000px; height:400px;" data-brackets-id="19">
+        <div class="gantt_container">
+            <div class="gantt_grid" role="treegrid" aria-multiselectable="false" style="height: 398px; width: 359px;">
+                <div class="gantt_grid_scale" role="row" style="height: 34px; line-height: 33px; width: 359px;">
+                    <div class="gantt_grid_head_cell gantt_grid_head_text  " style="width:156px;" role="columnheader" aria-label="Task name" column_id="text">Task name</div>
+                    <div class="gantt_grid_head_cell gantt_grid_head_start_date  " style="width:90px;" role="columnheader" aria-label="Start time" column_id="start_date">Start time</div>
+                    <div class="gantt_grid_head_cell gantt_grid_head_duration  " style="width:70px;" role="columnheader" aria-label="Duration" column_id="duration">Duration</div>
+                    <div class="gantt_grid_head_cell gantt_grid_head_add gantt_last_cell " style="width:43px;" role="button" aria-label="New task" column_id="add"></div>
+                </div>
+                <div class="gantt_grid_data" role="rowgroup" data-layer="true" style="height: 363px; width: 359px;">
+                    <div class="gantt_row gantt_selected" task_id="1479998194420" aria-label=" Task: New task Start date: 2016-11-23 End date: 2016-11-24" aria-selected="true" role="row" aria-level="0" style="height: 35px; line-height: 35px;">
+                        <div class="gantt_cell" style="width:156px;" role="gridcell" aria-label="New task">
+                            <div class="gantt_tree_icon gantt_blank"></div>
+                            <div class="gantt_tree_icon gantt_file"></div>
+                            <div class="gantt_tree_content">New task</div>
+                        </div>
+                        <div class="gantt_cell" style="width:90px;text-align:center;" role="gridcell" aria-label="2016-11-23">
+                            <div class="gantt_tree_content">2016-11-23</div>
+                        </div>
+                        <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="1">
+                            <div class="gantt_tree_content">1</div>
+                        </div>
+                        <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                            <div role="button" aria-label="New task" class="gantt_add"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gantt_task" style="height: 398px; width: 638px;">
+                <div class="gantt_task_scale" style="height: 34px; width: 638px;">
+                    <div class="gantt_scale_line" style="height:34px;position:relative;line-height:34px">
+                        <div class="gantt_scale_cell" aria-label="23 Nov" style="width:212px;height:34px;position:absolute;left:0px">23 Nov</div>
+                        <div class="gantt_scale_cell" aria-label="24 Nov" style="width:213px;height:34px;position:absolute;left:212px">24 Nov</div>
+                        <div class="gantt_scale_cell gantt_last_cell" aria-label="25 Nov" style="width:213px;height:34px;position:absolute;left:425px">25 Nov</div>
+                    </div>
+                </div>
+                <div class="gantt_data_area" style="height: 363px; width: 638px;">
+                    <div class="gantt_task_bg" data-layer="true" style="width: 638px;">
+                        <div class="gantt_task_row gantt_selected" task_id="1479998194420" style="height: 35px;">
+                            <div class="gantt_task_cell" style="width: 212px;"></div>
+                            <div class="gantt_task_cell" style="width: 213px;"></div>
+                            <div class="gantt_task_cell gantt_last_cell" style="width: 213px;"></div>
+                        </div>
+                    </div>
+                    <div class="gantt_links_area" data-layer="true" style="width: 638px;"></div>
+                    <div class="gantt_bars_area" data-layer="true" style="width: 638px;">
+                        <div task_id="1479998194420" class="gantt_task_line gantt_selected" aria-label=" Task: New task Start date: 2016-11-23 End date: 2016-11-24" aria-selected="true" aria-grabbed="false" style="left: 0px; top: 2px; height: 30px; line-height: 30px; width: 212px;">
+                            <div class="gantt_task_progress" style="width: 0px;"></div>
+                            <div class="gantt_task_progress_drag" style="left: 0px;"></div>
+                            <div class="gantt_task_content">New task</div>
+                            <div class="gantt_task_drag task_right"></div>
+                            <div class="gantt_task_drag task_left"></div>
+                            <div class="gantt_link_control task_right" style="height: 30px; line-height: 30px;">
+                                <div class="gantt_link_point"></div>
+                            </div>
+                            <div class="gantt_link_control task_left" style="height: 30px; line-height: 30px;">
+                                <div class="gantt_link_point"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gantt_ver_scroll" style="display: none; height: 0px; width: 0px;">
+                <div></div>
+            </div>
+            <div class="gantt_hor_scroll" style="display: none; width: 0px; height: 0px;">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" data-brackets-id="20">
+        gantt.init("gantt_here");
+
+    </script>
+    <div class="__brackets-ld-highlight" style="left: 8px; top: 8px; width: 882px; height: 400px; z-index: 2000000; margin: 0px; padding: 0px; position: absolute; pointer-events: none; border-radius: 0px; border: 1px solid rgb(0, 162, 255); box-shadow: rgb(255, 255, 255) 0px 0px 1px; box-sizing: border-box; opacity: 1; background-color: rgba(0, 162, 255, 0);"></div>
+</body>
+
+</html>
