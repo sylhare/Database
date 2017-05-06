@@ -5,7 +5,7 @@
 *.cs     diff=csharp
 
 # For sql
-*.sql diff=sql
+*.sql linguist-language=sql
 
 # Standard to msysgit
 *.doc	 diff=astextplain
