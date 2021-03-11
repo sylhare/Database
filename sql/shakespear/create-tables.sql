@@ -1,0 +1,2 @@
+CREATE TABLE amnd (line_number INT NOT NULL AUTO_INCREMENT, char_name VARCHAR(45) NOT NULL, play_text TEXT NOT NULL, PRIMARY KEY (line_number));
+CREATE TABLE performance (query_type TEXT NOT NULL, query_time FLOAT NOT NULL);
