@@ -1,1 +1,0 @@
-CREATE TABLE `accidents`.`accident_medians` (`vehicle_type` VARCHAR(45) NULL,`median_accident_severity` INT NULL);
