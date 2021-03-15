@@ -20,6 +20,8 @@ MySQL is an open source database system that uses the SQL standard. It runs on a
 
 The data in a MySQL database are stored in tables. A table is a collection of related data, and it consists of columns and rows.
 
+> More on [SQL](https://github.com/sylhare/sql)
+
 ## NoSQL Database
 
 ### Types
